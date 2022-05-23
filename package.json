@@ -1,0 +1,24 @@
+{
+  "name": "xleap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "cross-env yarn codeceptjs run --steps --verbose"
+  },
+  "dependencies": {
+    "@codeceptjs/helper": "^2.0.1",
+    "codeceptjs": "^3.3.0",
+    "webdriverio": "latest"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.1",
+    "@wdio/appium-service": "^7.19.5",
+    "@wdio/selenium-standalone-service": "latest",
+    "codeceptjs": "^3.3.3",
+    "codeceptjs-chai": "^2.3.2",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  }
+}
